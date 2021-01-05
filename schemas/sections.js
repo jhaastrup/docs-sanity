@@ -1,3 +1,5 @@
+import dataInput from './../components/dataInput';
+
  export default{
     name:'section',
     title:'Section',
@@ -25,7 +27,8 @@
     {
         name:'content',
         title:'Content',
-        type:'text'
+        type:'text',
+        inputComponent:dataInput,
     }
       ]
 } 
